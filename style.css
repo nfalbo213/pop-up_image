@@ -6,7 +6,7 @@
 .pop-up-frame {
     background-color: black;
     opacity: .95;
-    position: absolute;
+    position: fixed;
     display: none;
     flex-direction: column;
     justify-content: center;
