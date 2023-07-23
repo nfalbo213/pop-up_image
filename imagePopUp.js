@@ -6,11 +6,11 @@ const zoomedImg = document.querySelector('.zoomed-img');
 const setImage = (target) => {
     if (target.dataset.prod === 'fire-craw') {
         zoomedImg.src = 'fire-craw-2.jpg';
-        zoomedImg.alt = 'Image of Fire Craw lure';
+        zoomedImg.alt = 'Enlarged image of Fire Craw lure';
     }
     else if (target.dataset.prod === 'pickle-flat') {
         zoomedImg.src = 'c_PickleFlat2.jpg';
-        zoomedImg.alt = 'Image of Pickle Flat lure';
+        zoomedImg.alt = 'Enlarged image of Pickle Flat lure';
     }
 }
 
