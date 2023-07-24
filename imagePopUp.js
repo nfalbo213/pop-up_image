@@ -1,3 +1,5 @@
+/*Copyright 2023 Nick Falbo (https://nick.falbo.dev)
+SPDX-License-Identifier: Apache-2.0*/
 const imageArr = document.querySelectorAll('.pop-up-img');
 const popUpFrame = document.querySelector('.pop-up-frame');
 const exitButton = document.querySelector('.pop-up-exit-button');
