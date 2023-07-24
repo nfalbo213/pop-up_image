@@ -4,8 +4,7 @@
     cursor: pointer;
 }
 .pop-up-frame {
-    background-color: black;
-    opacity: .95;
+    background-color: rgba(0, 0, 0, 0.9);
     position: fixed;
     display: none;
     flex-direction: column;
@@ -27,7 +26,7 @@
     height: 55px;
     width: 55px;
     border: 0;
-    background-color: black;
+    background-color: transparent;
     padding-left: 75%;
     margin-bottom: 1%;
 }
