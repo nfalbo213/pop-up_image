@@ -36,6 +36,7 @@ To use plugin, follow these steps:
 
 7) In `imagePopUp.js`, change and add `if` statement(s) in `setImage(target)` to match the [Data Attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/data-*) created in Step 6, and then change `zoomedImg.src` and `zoomedImg.alt`  to match the pathway(s) and alt-text of your image(s):
 
+`
     const setImage = (target) => {
         if (target.dataset.prod === '[YOUR DATA-* HERE]') {
             zoomedImg.src = '[YOUR PATHWAY HERE]';
@@ -43,6 +44,7 @@ To use plugin, follow these steps:
         }
         if .... [OTHER STATEMENTS IF NEEDED]
     }
+`
 
 ## Questions
 
