@@ -20,8 +20,6 @@ SPDX-License-Identifier: Apache-2.0*/
     width: 100%;
 }
 .zoomed-img {
-    /*height: 80%;
-    width: 80%;*/
     height: 35em;
     width: 35em;
 }
