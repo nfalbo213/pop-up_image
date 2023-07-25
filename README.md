@@ -26,13 +26,11 @@ To use plugin, follow these steps:
             <img class="zoomed-img" src="">
         </div>
 
-4) Copy and paste the rules in style.css to your project's CSS file. Exclude the `.pop-up-image` rules 
+4) Copy and paste the rules in style.css to your project's CSS file. Exclude the `.pop-up-image` rules, and make the nessecary style changes to match your project.
 
 5) Add `imagePopUp.js` as a module in your HTML using:
 
-    `
-    <script type="module" src="./[Your pathway here]/imagePopUp.js"></script>
-    `
+    `<script type="module" src="./[YOUR PATHWAY HERE]/imagePopUp.js"></script>`
 
 6) Add [Data Attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/data-*) to the images you wish to enlarge in your HTML. (As written, `imagePopUp.js` uses data-prod, but this can be changed to suit your project)
 
