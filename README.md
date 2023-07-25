@@ -20,7 +20,7 @@ To use plugin, follow these steps:
 
 ```
         <div class="pop-up-frame">
-            <button class="pop-up-exit-button">
+            <button class="pop-up-exit-button" role="button" aria-roledescription="button to exit out of enlarged image">
                 <span class="cross-one"></span>
                 <span class="cross-two"></span>
             </button>
