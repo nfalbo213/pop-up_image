@@ -32,7 +32,9 @@ To use plugin, follow these steps:
 
 5) Add `imagePopUp.js` as a module in your HTML using:
 
-    `<script type="module" src="./[YOUR PATHWAY HERE]/imagePopUp.js"></script>`
+    ```
+    <script type="module" src="./[YOUR PATHWAY HERE]/imagePopUp.js"></script>
+    ```
 
 6) Add [Data Attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/data-*) to the images you wish to enlarge in your HTML (As written, `imagePopUp.js` uses `data-prod=""`. This can be changed to suit your project, but make sure to change `target.dataset.prod` in Step 7 to match your new attribute)
 
