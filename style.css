@@ -21,8 +21,15 @@ SPDX-License-Identifier: Apache-2.0*/
 }
 .zoomed-img {
     /* Change height and width to match dimensions of the images in your project */
-    height: 80%;
-    width: 80%;
+    height: 35em;
+    width: 35em;
+}
+@media screen and (max-width: 600px) {
+    /* Change height and width to match dimensions of the images in your project */
+    .zoomed-img {
+        height: 21em;
+        width: 21em;
+    }
 }
 .pop-up-exit-button {
     cursor: pointer;
