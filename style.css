@@ -20,14 +20,8 @@ SPDX-License-Identifier: Apache-2.0*/
     width: 100%;
 }
 .zoomed-img {
-    height: 35em;
-    width: 35em;
-}
-@media screen and (max-width: 600px) {
-    .zoomed-img {       
-        height: 21em;
-        width: 21em;
-    }
+    height: 80%;
+    width: 80%;
 }
 .pop-up-exit-button {
     cursor: pointer;
