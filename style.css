@@ -22,13 +22,13 @@ SPDX-License-Identifier: Apache-2.0*/
 .zoomed-img {
     /*height: 80%;
     width: 80%;*/
-    height: 30em;
-    width: 30em;
+    height: 35em;
+    width: 35em;
 }
 @media screen and (max-width: 600px) {
     .zoomed-img {       
-        height: 20em;
-        width: 20em;
+        height: 21em;
+        width: 21em;
     }
 }
 .pop-up-exit-button {
@@ -42,7 +42,7 @@ SPDX-License-Identifier: Apache-2.0*/
 }
 @media screen and (max-width: 600px) {
     .pop-up-exit-button {
-        padding-left: 65%;
+        padding-left: 70%;
     }
 }
 /* make two botton spans cross for an 'x' */
