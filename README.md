@@ -26,7 +26,7 @@ To use plugin, follow these steps:
             <img class="zoomed-img" src="">
         </div>
 
-4) Copy and paste the rules in style.css to your project's CSS file. Exclude the `.pop-up-image` rules, and make the nessecary style changes to match your project.
+4) Copy and paste the rules in `style.css` to your project's CSS file. (Exclude the `.pop-up-image` rules, and make the nessecary style changes to match your project)
 
 5) Add `imagePopUp.js` as a module in your HTML using:
 
