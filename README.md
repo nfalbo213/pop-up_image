@@ -34,17 +34,7 @@ To use plugin, follow these steps:
 
 6) Add [Data Attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/data-*) to the images you wish to enlarge in your HTML (As written, `imagePopUp.js` uses `data-prod=""`, but this can be changed to suit your project)
 
-7) In `imagePopUp.js`, change and add `if` statement(s) in `setImage(target)` to match the [Data Attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/data-*) created in Step 6, and then change `zoomedImg.src` and `zoomedImg.alt`  to match the pathway(s) and alt-text of your image(s):
-
-`
-    const setImage = (target) => {
-        if (target.dataset.prod === '[YOUR DATA-* HERE]') {
-            zoomedImg.src = '[YOUR PATHWAY HERE]';
-            zoomedImg.alt = '[YOUR ALT-TEXT HERE]';
-        }
-        if .... [OTHER STATEMENTS IF NEEDED]
-    }
-`
+7) In `imagePopUp.js`, change and add `if` statement(s) in `setImage(target)` to match the [Data Attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/data-*) created in Step 6, and then change `zoomedImg.src` and `zoomedImg.alt`  to match the pathway(s) and alt-text of your image(s)
 
 ## Questions
 
