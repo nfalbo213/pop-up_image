@@ -12,9 +12,9 @@ You're free to use and modify this plugin in your project under the terms of the
 
 To use plugin, follow these steps:
 
-1) Clone, download, or simply copy and paste [imagePopUp.js](https://github.com/nfalbo213/pop-up_image/blob/main/imagePopUp.js) and add it as a file to your project.
+1) Clone, download, or simply copy and paste [imagePopUp.js](https://github.com/nfalbo213/pop-up_image/blob/main/imagePopUp.js) and add it as a file to your project
 
-2) Add `class="pop-up-img"` to the image elements you wish to enlarge in your HTML.
+2) Add `class="pop-up-img"` to the image element(s) you wish to enlarge in your HTML
 
 3) Copy and paste the following and add it to the appropriate section of your HTML (it can be added anywhere, but only needs to be added once):
 
@@ -26,15 +26,15 @@ To use plugin, follow these steps:
             <img class="zoomed-img" src="">
         </div>
 
-4) Copy and paste the rules in `style.css` to your project's CSS file. (Exclude the `.pop-up-image` rules, and make the nessecary style changes to match your project)
+4) Copy and paste the rules in `style.css` to your project's CSS file (Exclude the `.pop-up-image` rules, and make the nessecary style changes to match your project)
 
 5) Add `imagePopUp.js` as a module in your HTML using:
 
     `<script type="module" src="./[YOUR PATHWAY HERE]/imagePopUp.js"></script>`
 
-6) Add [Data Attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/data-*) to the images you wish to enlarge in your HTML. (As written, `imagePopUp.js` uses `data-prod=""`, but this can be changed to suit your project)
+6) Add [Data Attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/data-*) to the images you wish to enlarge in your HTML (As written, `imagePopUp.js` uses `data-prod=""`, but this can be changed to suit your project)
 
-7) In `imagePopUp.js`, change and add `if` statement(s) in `setImage(target)` to match the [Data Attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/data-*) created in Step 6, and then change `zoomedImg.src` and `zoomedImg.alt`  to match your image.
+7) In `imagePopUp.js`, change and add `if` statement(s) in `setImage(target)` to match the [Data Attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/data-*) created in Step 6, and then change `zoomedImg.src` and `zoomedImg.alt`  to match that of your image(s)
 
 ## Questions
 
