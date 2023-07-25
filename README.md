@@ -16,7 +16,7 @@ To use plugin, follow these steps:
 
 2) Add `class="pop-up-img"` to the image element(s) you wish to enlarge in your HTML
 
-3) Copy and paste the following and add it to the appropriate section of your HTML (it can be added anywhere, but only needs to be added once):
+3) Copy and paste the following and add it to the appropriate section of your HTML (it can technically be added anywhere, but only needs to be added once):
 
         <div class="pop-up-frame">
             <button class="pop-up-exit-button">
