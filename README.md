@@ -12,7 +12,7 @@ You're free to use and modify this plugin in your project under the terms of the
 
 To use plugin, follow these steps:
 
-1) Clone, download, or simply copy and paste `imagePopUp.js` and add it as a file to your project.
+1) Clone, download, or simply copy and paste [imagePopUp.js](https://github.com/nfalbo213/pop-up_image/blob/main/imagePopUp.js) and add it as a file to your project.
 
 2) Add `class="pop-up-img"` to the image elements you wish to enlarge in your HTML.
 
