@@ -32,7 +32,7 @@ To use plugin, follow these steps:
 
     `<script type="module" src="./[YOUR PATHWAY HERE]/imagePopUp.js"></script>`
 
-6) Add [Data Attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/data-*) to the images you wish to enlarge in your HTML. (As written, `imagePopUp.js` uses data-prod, but this can be changed to suit your project)
+6) Add [Data Attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/data-*) to the images you wish to enlarge in your HTML. (As written, `imagePopUp.js` uses `data-prod=""`, but this can be changed to suit your project)
 
 7) In `imagePopUp.js`, change and add 'if' statements in setImage() to include/match the Data Attributes of each image that you changed in Step 4. Then, change the source and alt-text to match your image.
 
