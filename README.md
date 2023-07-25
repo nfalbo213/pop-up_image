@@ -50,6 +50,6 @@ To use plugin, follow these steps:
     }
 ```
 
-## Questions
+## Questions, Comments, Additions
 
-Feel free to [reach out](https://nick.falbo.dev/#contact) with any questions! 😁
+Feel free to [reach out](https://nick.falbo.dev/#contact) with any questions, comments, or additions/improvements! 😁
