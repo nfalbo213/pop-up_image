@@ -6,13 +6,21 @@ const exitButton = document.querySelector('.pop-up-exit-button');
 const zoomedImg = document.querySelector('.zoomed-img');
 
 const setImage = (target) => {
-    if (target.dataset.prod === 'fire-craw') {
-        zoomedImg.src = 'fire-craw-2.jpg';
-        zoomedImg.alt = 'Enlarged image of Fire Craw lure';
+    if (target.dataset.pic === 'oregon-tree') {
+        zoomedImg.src = './images/oregon-tree.jpg';
+        zoomedImg.alt = 'Enlarged image of a tree in an Oregon forest';
     }
-    else if (target.dataset.prod === 'pickle-flat') {
-        zoomedImg.src = 'c_PickleFlat2.jpg';
-        zoomedImg.alt = 'Enlarged image of Pickle Flat lure';
+    if (target.dataset.pic === 'oregon-beach') {
+        zoomedImg.src = './images/oregon-beach.jpg';
+        zoomedImg.alt = 'Enlarged image of a beach on the Oregon coast';
+    }
+    if (target.dataset.pic === 'kady-poodle') {
+        zoomedImg.src = './images/kady-poodle.jpg';
+        zoomedImg.alt = 'Enlarged image of Kady the poodle at Nauset Beach in Massachusetts';
+    }
+    if (target.dataset.pic === 'gale-meadows-vt') {
+        zoomedImg.src = './images/gale-meadows-vt.jpg';
+        zoomedImg.alt = 'Enlarged image of a sunset at Gale Meadows Pond in Vermont';
     }
 }
 

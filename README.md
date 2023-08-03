@@ -1,6 +1,6 @@
-# Basic Image Pop-Up Plugin
+# Basic Image Pop-Up Plug-in
 
-Basic image pop-up plugin using vanilla JavaScript. 
+Basic image pop-up plug-in using vanilla JavaScript. 
 
 See example [here](https://nfalbo213.github.io/pop-up_image/).
 
@@ -36,13 +36,13 @@ To use plugin, follow these steps:
     <script type="module" src="./[YOUR PATHWAY HERE]/imagePopUp.js"></script>
     ```
 
-6) Add [Data Attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/data-*) to the images you wish to enlarge in your HTML (As written, `imagePopUp.js` uses `data-prod=""`. This can be changed to suit your project, but make sure to change `target.dataset.prod` in Step 7 to match your new attribute)
+6) Add [Data Attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/data-*) to the images you wish to enlarge in your HTML (As written, `imagePopUp.js` uses `data-pic=""`. This can be changed to suit your project, but make sure to change `target.dataset.pic` in Step 7 to match your new attribute)
 
 7) In `imagePopUp.js`, change and add `if` statement(s) in `setImage(target)` to match the [Data Attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/data-*) created in Step 6, and then change `zoomedImg.src` and `zoomedImg.alt`  to match the pathway(s) and alt-text of your image(s):
 
 ```
     const setImage = (target) => {
-        if (target.dataset.prod === '[YOUR DATA-* HERE]') {
+        if (target.dataset.pic === '[YOUR DATA-* HERE]') {
             zoomedImg.src = '[YOUR PATHWAY HERE]';
             zoomedImg.alt = '[YOUR ALT-TEXT HERE]';
         }
