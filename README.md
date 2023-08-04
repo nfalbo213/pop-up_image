@@ -6,13 +6,13 @@ See example [here](https://nfalbo213.github.io/pop-up_image/).
 
 ## License
 
-You're free to use and modify this plugin in your project under the terms of the Apache 2.0 license, as long as you include my name.
+You're free to use and modify this plugin in your project under the terms of the Apache 2.0 license.
 
 ## Use
 
 To use plugin, follow these steps:
 
-1) Clone, download, or simply copy and paste [imagePopUp.js](https://github.com/nfalbo213/pop-up_image/blob/main/imagePopUp.js) and add it as a file to your project
+1) Clone, download, or simply copy and paste [imagePopUp.js](https://github.com/nfalbo213/pop-up_image/blob/main/imagePopUp.js) and add it as a file in your project directory
 
 2) Add `class="pop-up-img"` to the image element(s) you wish to enlarge in your HTML
 
@@ -28,27 +28,13 @@ To use plugin, follow these steps:
         </div>
 ``` 
 
-4) Copy and paste the rules in `style.css` to your project's CSS file (Exclude the `.pop-up-image` rules, make nessesary changes to `.zoomed-img` `height:` and `width:` rules to match sizing with your image(s), and make any other style changes to match your project)
-
-5) Add `imagePopUp.js` as a module in your HTML using:
+4) Add `imagePopUp.js` as a module in your HTML using:
 
     ```
     <script type="module" src="./[YOUR PATHWAY HERE]/imagePopUp.js"></script>
     ```
 
-6) Add [Data Attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/data-*) to the images you wish to enlarge in your HTML (As written, `imagePopUp.js` uses `data-pic=""`. This can be changed to suit your project, but make sure to change `target.dataset.pic` in Step 7 to match your new attribute)
-
-7) In `imagePopUp.js`, change and add `if` statement(s) in `setImage(target)` to match the [Data Attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/data-*) created in Step 6, and then change `zoomedImg.src` and `zoomedImg.alt`  to match the pathway(s) and alt-text of your image(s):
-
-```
-    const setImage = (target) => {
-        if (target.dataset.pic === '[YOUR DATA-* HERE]') {
-            zoomedImg.src = '[YOUR PATHWAY HERE]';
-            zoomedImg.alt = '[YOUR ALT-TEXT HERE]';
-        }
-        if .... [OTHER STATEMENTS IF NEEDED]
-    }
-```
+5) Copy and paste the rules in `style.css` to your project's CSS file (Exclude the `.pop-up-image` rules, make nessesary changes to `.zoomed-img` `height:` and `width:` rules to match sizing with your image(s), and make any other style changes to match your project)
 
 ## Questions, Comments, Additions
 

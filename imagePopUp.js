@@ -6,22 +6,8 @@ const exitButton = document.querySelector('.pop-up-exit-button');
 const zoomedImg = document.querySelector('.zoomed-img');
 
 const setImage = (target) => {
-    if (target.dataset.pic === 'oregon-tree') {
-        zoomedImg.src = './images/oregon-tree.jpg';
-        zoomedImg.alt = 'Enlarged image of a tree in an Oregon forest';
-    }
-    if (target.dataset.pic === 'oregon-beach') {
-        zoomedImg.src = './images/oregon-beach.jpg';
-        zoomedImg.alt = 'Enlarged image of a beach on the Oregon coast';
-    }
-    if (target.dataset.pic === 'kady-poodle') {
-        zoomedImg.src = './images/kady-poodle.jpg';
-        zoomedImg.alt = 'Enlarged image of Kady the poodle at Nauset Beach in Massachusetts';
-    }
-    if (target.dataset.pic === 'gale-meadows-vt') {
-        zoomedImg.src = './images/gale-meadows-vt.jpg';
-        zoomedImg.alt = 'Enlarged image of a sunset at Gale Meadows Pond in Vermont';
-    }
+    zoomedImg.src = `${target.src}`;
+    zoomedImg.alt = `Enlarged ${target.alt}`;
 }
 
 const enlargeImage = () => {
