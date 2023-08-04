@@ -7,7 +7,7 @@ const zoomedImg = document.querySelector('.zoomed-img');
 
 const setImage = (target) => {
     zoomedImg.src = `${target.src}`;
-    zoomedImg.alt = `Enlarged ${target.alt}`;
+    zoomedImg.alt = `Enlarged - ${target.alt}`;
 }
 
 const enlargeImage = () => {
