@@ -31,7 +31,7 @@ To use plugin, follow these steps:
 4) Add `imagePopUp.js` as a module in your HTML using:
 
     ```
-    <script type="module" src="./[YOUR PATHWAY HERE]/imagePopUp.js"></script>
+    <script type="module" src="./your/pathway/here/imagePopUp.js"></script>
     ```
 
 5) Copy and paste the rules in `style.css` to your project's CSS file (Exclude the `.pop-up-image` rules, make nessesary changes to `.zoomed-img` `height:` and `width:` rules to match sizing with your image(s), and make any other style changes to match your project)
