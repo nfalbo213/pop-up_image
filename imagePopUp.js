@@ -26,7 +26,24 @@ imageArr.forEach(target => {
     })
 })
 
+// add keydown event listener for accessibility 
+imageArr.forEach(target => {
+    target.addEventListener('keydown', (event) => {
+        if (event.key === 'Enter') {
+            setImage(target);
+            enlargeImage();
+        } 
+    })
+})
+
 exitButton.addEventListener('click', (event) => {
     event.preventDefault();
     minimizeImage();
+})
+
+// add keydown event listener for accessibility 
+exitButton.addEventListener('keydown', (event) => {
+    if (event.key === 'Enter') {
+        minimizeImage();
+    }    
 })
