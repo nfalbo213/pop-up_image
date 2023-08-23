@@ -45,7 +45,7 @@ SPDX-License-Identifier: Apache-2.0*/
         padding-left: 70%;
     }
 }
-/* make two botton spans cross for an 'x' */
+/* make two button spans cross for an 'x' */
 .cross-one, .cross-two {
     display: block;
     position: absolute;
